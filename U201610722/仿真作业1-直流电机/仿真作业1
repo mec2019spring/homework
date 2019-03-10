@@ -1,0 +1,16 @@
+## 1额定转矩为420NM。
+当转矩增加20%，计算转速为，仿真转速为
+当转矩减小20%，计算转速为，仿真转速为
+
+## 2.降压启动&电源反接制动+能耗制动
+```
+从0s开始加420N•m负载，为保证电枢电流尽可能小，采用降压启动
+降的最小电压要保证有大于负载的转矩，Tst>=TL=K*Ist=K*Un/Ra,Umin=5.026V
+取Umin=6V，以电压以斜坡函数逐渐增大到额定电压230V，圆滑过渡。
+采用电源反接制动方式，电压100V。串联电阻阻值为0.3Ω
+```
+
+### 1)电压变化图：
+![image](https://github.com/threedegree-underzero/abc/blob/master/HQ(%7BDZBBL%7D0%5DG~4U%7BE1EM%7DA.png)
+### 2)仿真结果如图：
+![image](https://github.com/threedegree-underzero/abc/blob/master/EHUQ1%600YDELT%7D97O%603JMY1L.png)
