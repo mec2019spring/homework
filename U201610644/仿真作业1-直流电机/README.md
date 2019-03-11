@@ -53,6 +53,7 @@
 ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_4.png)
 
 转速的计算式校正为：
+
 ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_5.png)
 
 以下为matlab计算代码：
