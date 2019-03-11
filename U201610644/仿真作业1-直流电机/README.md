@@ -9,12 +9,13 @@
 
 由于电机在额定电压下工作，所以以额定电压计算来额定转矩Tn：
 
-对于直流电机的模型，我们有：	
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure/formula_2.png)
+对于直流电机的模型，我们有：   
+	
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_2.png)
 	
 考虑到电机的存在转矩阻尼，故转矩公式校正为：
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure/formula_1.png)
-	
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_1.png)
+
 以下为matlab计算代码：
 
 
@@ -36,7 +37,7 @@
 
 <center>    
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure1_n.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure1_n.png)
 </center>
 
 
@@ -44,13 +45,15 @@
 2. 将0.8T与1.2T带入计算相应转速：  
 
 转速的计算公式为：
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/formula_3.png)
+
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_3.png)
 
 考虑到电机的存在转矩阻尼的计算式
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/formula_4.png)
+
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_4.png)
 
 转速的计算式校正为：
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/formula_5.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/formula_5.png)
 
 以下为matlab计算代码：
 ```
@@ -66,12 +69,12 @@
 通过simulink仿真验证结果：
 <center> 
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure1_1.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure1_1.png)
 </center> 
 最高转速验证：
 <center> 
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure1_max.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure1_max.png)
 </center> 
 
 
@@ -79,7 +82,7 @@
 <center> 
 
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure1_min.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure1_min.png)
 </center> 
 
 
@@ -94,27 +97,27 @@
 simulink 仿真如下图
 <center> 
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure2_1.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure2_1.png)
 </center> 
 其中，信号源的信号如图：
 
 制动开关控制信号：
 <center> 
 
-![制动开关控制信号](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure2_signal12.png)
+![制动开关控制信号](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure2_signal12.png)
 </center> 
 
 
 启动电源信号：
 <center> 
 
-![启动电源信号](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure2_signal3.png)
+![启动电源信号](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure2_signal3.png)
 </center> 
 
 验证启动制动电路的设计效果：
 <center> 
 
-![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A/figure/figure2_result.png)
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A1-%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA/figure/figure2_result.png)
 </center> 
 
 **Conclusion** **:** 降压启动+能耗制动的启制动方式能够满足题目的要求，启动电流较小，两秒内达到额定工况，制动迅速有效。
