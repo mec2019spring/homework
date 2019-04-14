@@ -84,6 +84,7 @@ e
 kp1 = 0.0003
 </center>
 
+<center><font color=grey>**kp1 = 0.0003**</font></center>
 
 <div align=center>
 
