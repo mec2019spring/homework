@@ -79,13 +79,14 @@ e
 
 ![kp1 =0.0003](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_1.png )
 </div>
-<center>kp1 = 0.0003</center>
+<center>   kp1 = 0.0003</center>
+
 
 <div align=center>
 
 ![kp2 =0.0086](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_2.png )
 </div>
-<center>kp2 = 0.0086</center>
+<center>  kp2 = 0.0086</center>
 
 **额定负载下：**
 
@@ -97,12 +98,12 @@ e
 
 ![kp1 =0.0003](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_3.png )
 </div>
-<center>kp1 = 0.0003</center>
+<center>  kp1 = 0.0003</center>
 <div align=center>
 
 ![kp2 =0.0086](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_4.png )
 </div>
-<center>kp2 = 0.0086</center>
+<center>  kp2 = 0.0086</center>
 
 注：
 ·通过上述仿真可以发现单纯的比例增益对系统的调节性能不是很好，虽然可以降低超调，降低振荡次数，但是稳态误差会大幅增加，同时超调量调整到10%左右就调不下去了。
