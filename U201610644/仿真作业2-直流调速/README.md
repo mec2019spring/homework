@@ -8,21 +8,21 @@
 
 <center>  
 
-system2
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_2.png )
 </center>
 
 参考之前阅读资料中的系统图
 
 <center>  
 
-system1
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_1.png )
 </center>
 
 通过转速反馈控制输入电压，加入简单的单位负反馈
 
 <center>
 
-system3
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_3.png )
 </center>
 
 注：
@@ -79,12 +79,12 @@ e
 
 <center>
 
-sensor1
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_1.png )
 </center>
 
 <center>
 
-sensor2
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_2.png )
 </center>
 
 
@@ -96,12 +96,12 @@ sensor2
 
 <center>
 
-sensor3
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_3.png )
 </center>
 
 <center>
 
-sensor4
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_4.png )
 </center>
 注：
 ·通过上述仿真可以发现单纯的比例增益对系统的调节性能不是很好，虽然可以降低超调，降低振荡次数，但是稳态误差会大幅增加，同时超调量调整到10%左右就调不下去了。
@@ -113,13 +113,13 @@ sensor4
 系统图：
 <center>
 
-pid1
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_1.png )
 </center>
 
 示波器波形图:
 <center>
 
-pid2
+![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_2.png )
 </center>
 
 2. 计算超调量和过渡时间
@@ -134,4 +134,5 @@ ts = x(max(find(y<0.95*ysta)));
 %具体可见文件中的计算script
 ```
 最后计算得出超调量为 1.2845e-09；
-误差0.05的过渡时间 ts = 0.577s
+
+误差0.05的过渡时间 ts = 0.577s;
