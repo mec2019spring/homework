@@ -12,9 +12,10 @@
 </div>
 参考之前阅读资料中的系统图
 
+<div align=center>
 
 ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_1.png )
-
+</div>
 
 
 通过转速反馈控制输入电压，加入简单的单位负反馈
