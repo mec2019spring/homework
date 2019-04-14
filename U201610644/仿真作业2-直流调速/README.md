@@ -78,13 +78,10 @@ e
 <div align=center>
 
 ![kp1 =0.0003](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_1.png )
-</div>
-<center>
 
 kp1 = 0.0003
-</center>
+</div>
 
-<center><font color=grey>**kp1 = 0.0003**</font></center>
 
 <div align=center>
 
