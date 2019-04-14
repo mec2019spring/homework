@@ -6,6 +6,7 @@
     Kp1 = 0.415   
     e0 = -236.3  
     e1 = -245.4  
+    ![What's up 老弟？](/5%overshoot.fig)
   _A inserted picture_  
   20% Overshoot   
     Kp2 = 0.642  
