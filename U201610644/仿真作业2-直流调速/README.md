@@ -108,9 +108,8 @@ e
 </div>
 
 示波器波形图:
-<div align=center>
+
 ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_2.png )
-</div>
 
 #####2. 计算超调量和过渡时间
 
