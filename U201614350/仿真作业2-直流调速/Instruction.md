@@ -6,7 +6,7 @@
     Kp1 = 0.415   
     e0 = -236.3  
     e1 = -245.4  
-    ![What's up?](5%overshoot.jpg)  
+    ![What's up?](https://github.com/MuskteerAramis/homework/blob/master/U201614350/%E4%BB%BF%E7%9C%9F%E4%BD%9C%E4%B8%9A2-%E7%9B%B4%E6%B5%81%E8%B0%83%E9%80%9F/5%25overshoot.jpg)  
   _A inserted picture_  
   20% Overshoot   
     Kp2 = 0.642  
