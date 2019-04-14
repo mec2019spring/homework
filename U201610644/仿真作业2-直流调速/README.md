@@ -7,25 +7,20 @@
 
 ##### 1. 在原先的模型上，建立单闭环调速模型
 
-<center>  ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_2.png )</center>
-
+<div align=center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_2.png )
 参考之前阅读资料中的系统图
 
-<center>  ![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_1.png )</center>
+<div align=center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_1.png )
 
 
 
 通过转速反馈控制输入电压，加入简单的单位负反馈
 
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_3.png )</center>
-
-注：
-
-·添加比例增益和积分增益
-
-··在比例增益和积分环节之前将单位rpm换算到rad/s
-
-···在比例增益和积分环节之前由 **E = kw** 将转速换算成电压
+<div align=center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/system_3.png )
+注： 
+·添加比例增益和积分增益  
+··在比例增益和积分环节之前将单位rpm换算到rad/s  
+···在比例增益和积分环节之前由 **E = kw** 将转速换算成电压  
 
 此外:  
 个人认为用电流调速会比较好，可是题目要求是用控制器的输出信号控制Controlled Voltage Source
@@ -35,7 +30,6 @@
 #####1. 确定增益值
 
 采用纯比例P控制，改变比例增益，使得速度阶跃响应超调量为5%和20%，并记录对应比例增益值Kp1和Kp2。
-
 
 以下为计算超调量matlab函数脚本：
 
@@ -53,8 +47,7 @@ over
 
 ```
 得到相应的比例增益： 
-
-kp1 = 0.0003 超调量为 9.44%。 
+kp1 = 0.0003 超调量为 9.44%   
 kp2 = 0.0086 超调量为20.01%
 
 
@@ -70,29 +63,26 @@ e
 ```
 **空载条件下：**
 
-对于kp1 = 0.0003，静态误差为：97.3%
-
+对于kp1 = 0.0003，静态误差为：97.3%  
 对于kp2 = 0.0086， 静态误差为：56.1%
 
 同时附上相应示波器所示波形图
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_1.png )</center>
-<center>kp1 =0.0003<center>
+<div align=center>![kp1 =0.0003](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_1.png )
 
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_2.png )</center>
-<center> kp2 =0.0086<center>
+
+<div align=center>![kp2 =0.0086](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_2.png )
+
 
 **额定负载下：**
 
-对于kp1 = 0.0003，静态误差为：100% 此时电机带不动负载
-
+对于kp1 = 0.0003，静态误差为：100% 此时电机带不动负载  
 对于kp2 = 0.0086 静态误差为：58.3% 
 
 同时附上相应示波器所示波形图
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_3.png )</center>
-<center>kp1 =0.0003<center>
+<div align=center>![kp1 =0.0003](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_3.png )
 
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_4.png )</center>
-<center>kp2 =0.0086<center>
+
+<div align=center>![kp2 =0.0086](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/sensor_4.png )
 
 注：
 ·通过上述仿真可以发现单纯的比例增益对系统的调节性能不是很好，虽然可以降低超调，降低振荡次数，但是稳态误差会大幅增加，同时超调量调整到10%左右就调不下去了。
@@ -102,10 +92,10 @@ e
 #####1. 调节较为合理的比例和积分增益
 通过调整，选取比例增益kp = 0.002， 积分增益ki = 0.04
 系统图：
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_1.png )</center>
+<div align=center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_1.png )
 
 示波器波形图:
-<center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_2.png )</center>
+<div align=center>![](https://raw.githubusercontent.com/Simon142857/homework/master/U201610644/仿真作业2-直流调速/figure/pid_2.png )
 
 #####2. 计算超调量和过渡时间
 
